@@ -1,21 +1,24 @@
 # AdventOfCode
 
-**TODO: Add description**
+Solutions to the 2021 [Advent of Code](https://adventofcode.com/2021) challenge
 
-## Installation
+## Running
+To install Elixir, please follow the setup guide [here](https://elixir-lang.org/install.html).
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `advent_of_code` to your list of dependencies in `mix.exs`:
+To run the daily challenge, you can use the interactive environment:
 
-```elixir
-def deps do
-  [
-    {:advent_of_code, "~> 0.1.0"}
-  ]
-end
+```
+> iex -S mix
+
+(iex)> recompile()
+(iex)> AdventOfCode.day_one(1)
+
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/advent_of_code>.
+Simply pick out the daily function, and add the challenge part as the param.
+
+## Tests
+To run the tests, use `mix test`
+
+
 
